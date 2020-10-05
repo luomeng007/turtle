@@ -13,6 +13,7 @@ import turtle
 class Picture:
     def drawRectangular(self):
         obj = turtle.Turtle()
+        
         obj.penup()
         obj.setpos(0,30)
         obj.pendown()
