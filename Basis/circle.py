@@ -12,6 +12,8 @@ import turtle
 
 class Debug:
     def __init__(self, radius:float, extent: float, steps:int):
+        # when radius is position, direction is anticlockwise
+        # when radius is negative, direction is clockwise 
         self.radius = radius
         self.extent = extent
         self.steps = steps
