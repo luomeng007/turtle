@@ -21,6 +21,7 @@ class Debug:
     def drawCircle(self):
         # turtle.circle(self.radius, self.extent, self.steps)
         turtle.circle(self.radius, self.extent)
+        turtle.mainloop()
         
 
 if __name__ == "__main__":
